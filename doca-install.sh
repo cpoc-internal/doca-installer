@@ -9,6 +9,6 @@ sudo apt-get -y install doca-all
 sudo apt-get purge '^doca-.*' -y
 sudo dpkg -i doca-host_3.1.0-091000-25.07-ubuntu2204_amd64.deb
 sudo apt-get update
-sudo apt install -y mlnx-fw-updater
+#sudo apt install -y mlnx-fw-updater
 sudo apt-get -y install doca-all
 ls -l /opt/mellanox/doca/
