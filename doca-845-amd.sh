@@ -7,9 +7,6 @@ sudo apt-get -y install doca-all
 
 sudo systemctl enable rshim
 sudo systemctl start rshim
-
-sudo systemctl status doca-telemetry
-# Or for the DPU management
 sudo systemctl status rshim
 
 sudo mst start
