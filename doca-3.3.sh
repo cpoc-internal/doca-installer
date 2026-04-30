@@ -17,4 +17,6 @@ ibv_devinfo
 lsmod | grep ib_peermem
 sudo cpupower frequency-set -g performance
 
+ls -l /opt/mellanox/doca/
+
 sudo systemctl status rshim
