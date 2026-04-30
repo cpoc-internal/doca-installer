@@ -9,7 +9,6 @@ sudo apt-get -y install doca-all
 
 sudo systemctl enable rshim
 sudo systemctl start rshim
-sudo systemctl status rshim
 
 sudo mst start
 sudo mst status -v
@@ -17,3 +16,5 @@ sudo mst status -v
 ibv_devinfo
 lsmod | grep ib_peermem
 sudo cpupower frequency-set -g performance
+
+sudo systemctl status rshim
